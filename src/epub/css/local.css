@@ -2,14 +2,6 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* letters */
-hgroup{
-	break-after: page;
-}
-
-hgroup + p{
-	margin-top: 20vh;
-}
-
 [epub|type~="z3998:letter"] header{
 	text-align: right;
 }

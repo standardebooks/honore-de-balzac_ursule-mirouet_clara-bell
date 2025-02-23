@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/honore-de-balzac/ursule-mirouet/clara-bell</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-02-23T04:22:43Z</dc:date>
+		<meta property="dcterms:modified">2025-02-23T04:22:43Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -42,17 +42,17 @@
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta id="collection-2" property="belongs-to-collection">The Human Comedy: Scenes from Provincial Life</meta>
 		<meta property="collection-type" refines="#collection-2">series</meta>
-		<dc:description id="description">A young girl grows up in the care of her uncle and his friends amidst the machinations of the uncle’s heirs to prevent her from inheriting anything.</dc:description>
+		<dc:description id="description">A young girl grows up in the care of her uncle and his friends, while his heirs scheme to prevent her from inheriting anything.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;When Doctor Minoret moves to Nemours with a baby girl in tow, his relatives, and heirs, are alarmed. The doctor was wealthy and seventy-one, and his heirs were already mentally dividing up the spoils amongst themselves. They didn’t want a new candidate for the doctor’s affection interfering with their inheritance.&lt;/p&gt;
+			&lt;p&gt;When Doctor Minoret moves to Nemours with a baby girl in tow, his relatives and heirs are alarmed. The seventy-one-year-old doctor is wealthy, and his heirs were already mentally dividing up the spoils amongst themselves. They didn’t want a new candidate for the doctor’s affection interfering with their inheritance.&lt;/p&gt;
 			&lt;p&gt;The doctor soon makes friends of the local curé, a retired military man, and the local justice of the peace. Together the men dote on Ursule, the illegitimate daughter of the doctor’s nephew, and bring her up in an unconventional yet loving environment. The heirs, to whom the doctor has made plain he does not care to socialize, continue to fume and fret and scheme.&lt;/p&gt;
-			&lt;p&gt;While Ursule is a teenager and begins to notice young men, and one in particular, the doctor at last begins to decline. He makes arrangements to provide for Ursule after he’s gone, but the heirs are on heightened alert, and the drama of whether Ursule will be provided for or completely disinherited makes up the bulk of the second part of the novel.&lt;/p&gt;
+			&lt;p&gt;When Ursule becomes a teenager and begins to notice young men, and one in particular, the doctor at last begins to decline. He makes arrangements to provide for Ursule after he’s gone, but the heirs are on heightened alert, and the drama of whether Ursule will be provided for or completely disinherited begins.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
-		<!-- scans -->
 		<dc:source>https://archive.org/details/worksofhonorde06balzuoft</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">85508</meta>
+		<meta property="se:reading-ease.flesch">66.78</meta>
+		<meta property="se:production-notes">Two instances of italics are left without semantics because they are French malapropisms; therefore they should be italicized but they are not actual language per se.</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Ursule_Mirou%C3%ABt</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/honore-de-balzac_ursule-mirouet_clara-bell</meta>
 		<dc:creator id="author">Honoré de Balzac</dc:creator>
@@ -83,6 +83,9 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Lukas Bystricky</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Bystricky, Lukas</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
